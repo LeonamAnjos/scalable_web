@@ -38,3 +38,9 @@ Different data size content:
 - __POST__ http://localhost:51643/v1/diff/3/right with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMys0Ig=="}_ in the body.
 - __POST__ http://localhost:51643/v1/diff/3/left with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMyI="}_ in the body.
 - __GET__ http://localhost:51643/v1/diff/3
+
+### Todo next
+- Configure a database connection on the main program. 
+- Create a ClassLibrary and move the Entity Framework repository implementation to this project.
+- Configure migration.
+- Prepare the integration tests to run with In Memory database or with a real one.
