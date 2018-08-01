@@ -24,16 +24,17 @@ Open with Visual Studio and build the solution (_CTRL+Shift+B_).
 Run local with Debug mode and use a REST client send the requests below:
 
 Equal data content:
-__POST http://localhost:51643/v1/diff/1/right__ with _{"Data":"eyAibWVzc2FnZSI6ICJDT05URU5UIEZPUiBURVNUIg=="}_ in the body.
-__POST http://localhost:51643/v1/diff/1/left__ with _{"Data":"eyAibWVzc2FnZSI6ICJDT05URU5UIEZPUiBURVNUIg=="}_ in the body.
-__GET http://localhost:51643/v1/diff/1__.
+- __POST__ http://localhost:51643/v1/diff/1/right with _{"Data":"eyAibWVzc2FnZSI6ICJDT05URU5UIEZPUiBURVNUIg=="}_ in the body.
+- __POST__ http://localhost:51643/v1/diff/1/left with _{"Data":"eyAibWVzc2FnZSI6ICJDT05URU5UIEZPUiBURVNUIg=="}_ in the body.
+- __GET__ http://localhost:51643/v1/diff/1.
+
 
 Different data content:
-__POST http://localhost:51643/v1/diff/2/right__ with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMys0KzYi"}_ in the body.
-__POST http://localhost:51643/v1/diff/2/left__ with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMys1KzYi"}_ in the body.
-__GET http://localhost:51643/v1/diff/2__.
+- __POST__ http://localhost:51643/v1/diff/2/right with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMys0KzYi"}_ in the body.
+- __POST__ http://localhost:51643/v1/diff/2/left with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMys1KzYi"}_ in the body.
+- __GET__ http://localhost:51643/v1/diff/2
 
 Different data size content:
-__POST http://localhost:51643/v1/diff/3/right__ with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMys0Ig=="}_ in the body.
-__POST http://localhost:51643/v1/diff/3/left__ with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMyI="}_ in the body.
-__GET http://localhost:51643/v1/diff/3__.
+- __POST__ http://localhost:51643/v1/diff/3/right with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMys0Ig=="}_ in the body.
+- __POST__ http://localhost:51643/v1/diff/3/left with _{"Data":"eyAibWVzc2FnZSI6ICIxKzIrMyI="}_ in the body.
+- __GET__ http://localhost:51643/v1/diff/3
