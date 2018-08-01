@@ -21,7 +21,7 @@ $ cd scalable_web
 Open with Visual Studio and build the solution (_CTRL+Shift+B_).
 
 ### Running
-Run local with Debug mode and use a REST client send the requests below:
+Run local in debug mode and use any REST client send the requests below:
 
 Equal data content:
 - __POST__ http://localhost:51643/v1/diff/1/right with _{"Data":"eyAibWVzc2FnZSI6ICJDT05URU5UIEZPUiBURVNUIg=="}_ in the body.
